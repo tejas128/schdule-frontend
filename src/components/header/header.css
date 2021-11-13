@@ -1,0 +1,30 @@
+.header{
+    height: 60px;
+    padding: 10px;
+    background-color: #3e8ef7;
+    color: white;
+}
+.header-container{
+    display: flex;
+    
+}
+
+.header-left{
+    flex: 1;
+}
+.header-right{
+    flex: 1
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.menu-item{
+    list-style: none;
+    margin-left: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color:  #99C5FF;
+}
